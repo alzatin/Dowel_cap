@@ -1,0 +1,353 @@
+{
+    "atomType": "Molecule",
+    "x": 0.22819885900570497,
+    "y": 0.576219512195122,
+    "uniqueID": "id-5710",
+    "name": "Dowel_cap",
+    "topLevel": true,
+    "allAtoms": [
+        {
+            "atomType": "Output",
+            "x": 0.98,
+            "y": 0.5,
+            "uniqueID": "id-5712",
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": "__GEOMETRY_INPUT__"
+                }
+            ]
+        },
+        {
+            "atomType": "Input",
+            "x": 0.025384615384615384,
+            "y": 0.15384615384615385,
+            "uniqueID": "id-5732",
+            "name": "DowelDiam",
+            "type": "number"
+        },
+        {
+            "atomType": "Circle",
+            "x": 0.2632436837815811,
+            "y": 0.725609756097561,
+            "uniqueID": "id-5735"
+        },
+        {
+            "atomType": "Extrude",
+            "x": 0.4661776691116545,
+            "y": 0.5579268292682927,
+            "uniqueID": "id-5738",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                    "name": "height",
+                    "ioValue": 0.75
+                }
+            ]
+        },
+        {
+            "atomType": "Fusion",
+            "x": 0.7636511817440913,
+            "y": 0.2865853658536585,
+            "uniqueID": "id-5742",
+            "ioValues": [
+                {
+                    "name": "Shape 2",
+                    "ioValue": {
+                        "geometry": "move-1b7813a2-0.65625-0-0-0-0.75",
+                        "tags": [],
+                        "color": "#A3CE5B",
+                        "bom": [],
+                        "plane": {
+                            "origin": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "xDir": [
+                                1,
+                                0,
+                                0
+                            ],
+                            "normal": [
+                                0,
+                                0,
+                                1
+                            ]
+                        },
+                        "dimension": "3D"
+                    }
+                },
+                {
+                    "name": "Shape 5",
+                    "ioValue": {
+                        "geometry": "extrude-circle-0.65625-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.75",
+                        "dimension": "3D",
+                        "tags": [],
+                        "plane": {
+                            "origin": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "xDir": [
+                                1,
+                                0,
+                                0
+                            ],
+                            "normal": [
+                                0,
+                                0,
+                                1
+                            ]
+                        },
+                        "color": "#aad7f2",
+                        "bom": []
+                    }
+                }
+            ],
+            "unionType": "Fusion"
+        },
+        {
+            "atomType": "Move",
+            "x": 0.5077424612876936,
+            "y": 0.29268292682926833,
+            "uniqueID": "id-5747",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0.75
+                }
+            ]
+        },
+        {
+            "atomType": "Circle",
+            "x": 0.42379788101059496,
+            "y": 0.8292682926829269,
+            "uniqueID": "id-5753"
+        },
+        {
+            "atomType": "Extrude",
+            "x": 0.5644257703081232,
+            "y": 0.6507462686567164,
+            "uniqueID": "id-5756",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                    "name": "height",
+                    "ioValue": 0.5
+                }
+            ]
+        },
+        {
+            "atomType": "Circle",
+            "x": 0.48410757946210264,
+            "y": 0.899390243902439,
+            "uniqueID": "id-5761",
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 0.05
+                }
+            ]
+        },
+        {
+            "atomType": "Extrude",
+            "x": 0.5729421352893236,
+            "y": 0.8871951219512195,
+            "uniqueID": "id-5764",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                    "name": "height",
+                    "ioValue": -0.53
+                }
+            ]
+        },
+        {
+            "atomType": "Difference",
+            "x": 0.8149959250203749,
+            "y": 0.676829268292683,
+            "uniqueID": "id-7752",
+            "ioValues": [
+                {
+                    "name": "geometry1",
+                    "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                    "name": "geometry2",
+                    "ioValue": "__GEOMETRY_INPUT__"
+                }
+            ]
+        },
+        {
+            "atomType": "Color",
+            "x": 0.8958051420838972,
+            "y": 0.8079268292682927,
+            "uniqueID": "id-8276",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "__GEOMETRY_INPUT__"
+                }
+            ],
+            "selectedColor": "Orange"
+        },
+        {
+            "atomType": "GitHubMolecule",
+            "x": 0.2762836185819071,
+            "y": 0.4603658536585366,
+            "uniqueID": "id-5719",
+            "name": "Sphere",
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": "id-5715",
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": "__GEOMETRY_INPUT__"
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Code",
+                    "x": 0.45804540967423496,
+                    "y": 0.5090909090909091,
+                    "uniqueID": "id-5716",
+                    "codeVersion": 1,
+                    "code": "//Inputs:[radius];\n\n//let shape = replicad.makeSphere(radius)\n\nconst newPlane = new replicad.Plane().pivot(0, 'Y');\n\n return { geometry: [replicad.makeSphere(radius)], tags: [],\n      color: '#A3CE5B',\n      bom:[],\n      plane: newPlane}\n\n\n    /**\n    To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n    If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n    Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n    https://replicad.xyz/docs/introapp/UserGuide.html \n    Return a replicad object that includes geometry, color, tags and plane. \n\n\n    Example Code Atom:\n\n      Inputs:[shape, x];\n\n      let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n\n      return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n\n      - See more examples at _______ \n\n\n    */\n"
+                },
+                {
+                    "atomType": "Input",
+                    "x": 0.025384615384615384,
+                    "y": 0.15384615384615385,
+                    "uniqueID": "id-5717",
+                    "name": "Radius",
+                    "type": "number"
+                },
+                {
+                    "atomType": "Constant",
+                    "x": 0.24709302325581398,
+                    "y": 0.8575851393188855,
+                    "uniqueID": "id-5718",
+                    "value": 10
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap2Name": "number or geometry",
+                    "ap1ID": "id-5716",
+                    "ap2ID": "id-5715"
+                },
+                {
+                    "ap2Name": "radius",
+                    "ap1ID": "id-5717",
+                    "ap2ID": "id-5716"
+                }
+            ],
+            "parentRepo": {
+                "lastFoundGit": "2026-04-08T18:23:39.284Z",
+                "repoName": "Sphere",
+                "dateCreated": "2024-11-13T19:37:04Z",
+                "likes": 0,
+                "readMe": "https://raw.githubusercontent.com/alzatin/Sphere/master/README.md?sanitize=true",
+                "yyyy": 2025,
+                "topMoleculeID": 1731526624936,
+                "githubMoleculesUsed": [],
+                "html_url": "https://github.com/BarbourSmith/Sphere",
+                "topics": [],
+                "parentRepo": "BarbourSmith/Sphere",
+                "forks": 1,
+                "dateModified": "03/05/2025",
+                "ranking": 1.4,
+                "searchField": "sphere alzatin",
+                "owner": "alzatin",
+                "description": "Creates a sphere from the input radius",
+                "contentURL": "https://raw.githubusercontent.com/alzatin/Sphere/master/project.abundance?sanitize=true",
+                "svgURL": "https://raw.githubusercontent.com/alzatin/Sphere/master/project.svg?sanitize=true",
+                "isLocal": false
+            },
+            "unitsKey": "Inches",
+            "fileTypeVersion": 1
+        }
+    ],
+    "allConnectors": [
+        {
+            "ap2Name": "geometry",
+            "ap1ID": "id-5735",
+            "ap2ID": "id-5738"
+        },
+        {
+            "ap2Name": "Shape 5",
+            "ap1ID": "id-5738",
+            "ap2ID": "id-5742"
+        },
+        {
+            "ap2Name": "geometry1",
+            "ap1ID": "id-5742",
+            "ap2ID": "id-7752"
+        },
+        {
+            "ap2Name": "Shape 2",
+            "ap1ID": "id-5747",
+            "ap2ID": "id-5742"
+        },
+        {
+            "ap2Name": "geometry",
+            "ap1ID": "id-5753",
+            "ap2ID": "id-5756"
+        },
+        {
+            "ap2Name": "geometry2",
+            "ap1ID": "id-5756",
+            "ap2ID": "id-7752"
+        },
+        {
+            "ap2Name": "geometry",
+            "ap1ID": "id-5761",
+            "ap2ID": "id-5764"
+        },
+        {
+            "ap2Name": "geometry",
+            "ap1ID": "id-7752",
+            "ap2ID": "id-8276"
+        },
+        {
+            "ap2Name": "number or geometry",
+            "ap1ID": "id-8276",
+            "ap2ID": "id-5712"
+        },
+        {
+            "ap2Name": "geometry",
+            "ap1ID": "id-5719",
+            "ap2ID": "id-5747"
+        }
+    ],
+    "fileTypeVersion": 1,
+    "filetypeVersion": 1
+}
