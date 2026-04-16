@@ -7,6 +7,7 @@
 ## Inputs
 
 - **DowelDiam** (number)
+- **Hole_Depth** (number)
 
 
 
